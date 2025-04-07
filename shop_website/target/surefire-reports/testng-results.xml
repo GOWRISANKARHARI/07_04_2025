@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-07T20:27:45 IST" name="DemoShop Test Suite" finished-at="2025-04-07T20:28:06 IST" duration-ms="21888">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.runnerTestNG@4afcd809]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-04-07T20:27:45 IST" name="Cucumber Tests" finished-at="2025-04-07T20:28:06 IST" duration-ms="21888">
+      <class name="com.runner.runnerTestNG">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.runnerTestNG@4afcd809]" started-at="2025-04-07T20:27:45 IST" name="setUpClass" finished-at="2025-04-07T20:27:45 IST" duration-ms="860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@dbc7e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.runnerTestNG@4afcd809]" started-at="2025-04-07T20:27:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-07T20:28:04 IST" duration-ms="18962" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Complete notebook checkout with Excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Notebook Checkout Process"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
+at com.pages.CheckoutPage.fillBillingDetailsFromExcel(CheckoutPage.java:76)
+at com.action.CheckoutActions.fillBillingAddressFromExcel(CheckoutActions.java:15)
+at com.defenitions.LoginPagDefenitions.i_select_new_billing_address(LoginPagDefenitions.java:113)
+at ✽.I select new billing address(file:///C:/Users/GOWRISANKAR/eclipse-cucumber/shop_website/src/test/resources/feature/checkout.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.runnerTestNG@4afcd809]" started-at="2025-04-07T20:28:04 IST" name="tearDownClass" finished-at="2025-04-07T20:28:06 IST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.runnerTestNG -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- DemoShop Test Suite -->
+</testng-results>

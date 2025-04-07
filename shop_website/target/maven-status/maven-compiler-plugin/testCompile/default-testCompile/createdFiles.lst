@@ -1,0 +1,13 @@
+com\defenitions\LoginPagDefenitions.class
+com\utilities\ExtentManager.class
+com\defenitions\Hooks.class
+com\runner\runnerTestNG.class
+com\utilities\ExcelReader.class
+com\action\LoginActions.class
+com\pages\NewsletterPage.class
+com\action\CheckoutActions.class
+com\utilities\ListenersClass.class
+com\action\NewsletterActions.class
+com\pages\LoginPage.class
+com\pages\CheckoutPage.class
+com\utilities\HelperClass.class
