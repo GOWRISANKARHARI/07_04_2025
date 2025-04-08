@@ -9,7 +9,7 @@ Feature: Newsletter Subscription in applicataion
     Then the user should see "<expected_message>"
     
     Examples:
-  |email                |expected_message                                        |
+  |email                |expected_message|
   |hariabi2502@gmail.com|Thank you for signing up! A verification email has been sent. We appreciate your interest.|
   |harias@@@@@2|Enter valid email|
   |            |Enter valid email|
